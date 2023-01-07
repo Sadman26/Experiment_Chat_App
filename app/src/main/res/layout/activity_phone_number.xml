@@ -67,8 +67,9 @@
                 android:layout_height="wrap_content"
                 android:ems="10"
                 android:hint="Type your phone number"
+                android:inputType="phone"
                 android:padding="10dp"
-                android:phoneNumber="true" />
+                />
 
             <Button
                 android:id="@+id/continueBtn"
