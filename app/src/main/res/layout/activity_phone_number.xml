@@ -85,7 +85,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="28dp"
-        android:text="A Clone of Whatsapp made by Aditya Bonde"
+        android:text="By Sadman 😎"
         android:textColor="#000000"
         android:textStyle="bold|italic"
         app:layout_constraintBottom_toBottomOf="parent"
