@@ -75,7 +75,9 @@ public class OTPActivity extends AppCompatActivity {
                     public void onComplete(@NonNull Task<AuthResult> task) {
                        if(task.isSuccessful())
                        {
-                          Toast.makeText(OTPActivity.this,"Logged in",Toast.LENGTH_SHORT).show();
+                           Intent intent=new Intent(OTPActivity.this,SetupProfileActivity.class);
+                           startActivity(intent);
+                           finishAffinity();
                        }
                        else{
                            Toast.makeText(OTPActivity.this,"Failed",Toast.LENGTH_SHORT).show();
